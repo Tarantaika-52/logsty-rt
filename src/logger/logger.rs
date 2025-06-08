@@ -48,7 +48,7 @@ impl Logger {
             module_name: String::from("UNDEFINED"),
             log_level: LogLevel::DEBUG,
             format: String::from(
-                "%style:accent;bold%>> [ %L% ]%style:reset% > %T%%style:dark% (%Mod%) -%style:reset% %Msg%"
+                "%style:accent;bold%>> [%L%]%style:reset% > %T%%style:dark% (%Mod%) -%style:reset% %Msg%"
             ),
             use_colors: true,
             out

@@ -19,6 +19,9 @@ fn main() {
     let logger = Logger::new()
         .with_module_name("APP");
     
-    logger.debug("Hello world!");
+    logger.debug("Debug message");
+    logger.info("Info message");
+    logger.warn("Warning message");
+    logger.error("Error message");
 }
 ```
