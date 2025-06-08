@@ -1,0 +1,10 @@
+[package]
+name = "logsty-rt"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+chrono = "0.4.41"
